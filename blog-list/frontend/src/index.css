@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-size: 1.25rem;
+  color: rgb(70, 69, 69);
+}
+
+.success {
+  background-color: lightgreen;
+  padding: 1.5rem;
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+}
+.fail {
+  background-color: red;
+  color: red;
+  padding: 1.5rem;
+  font-size: 2em;
+
+  border: 1px solid red;
+  font-style: italic;
+  text-align: center;
+}
